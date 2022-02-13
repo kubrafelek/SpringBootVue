@@ -1,6 +1,6 @@
 export const state = () => ({
-    data: []
-    id: 0,
+    data: [],
+    id: "",
     name: "",
     email: "",
     password: ""

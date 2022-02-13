@@ -1,23 +1,24 @@
 <template>
   <div>
-      <h1>Header</h1>
+    <v-app>
+      <v-main>
+        <v-app-bar>
+          <v-app-bar-title>Home</v-app-bar-title>
+        </v-app-bar>
 
-      <v-app>
-          <v-main>
-              <v-app-bar-title>Home</v-app-bar-title>
-          </v-main>
-
-      </v-app>
-      <Nuxt />
+        <v-container justify="center" align="center">
+          <client-only>
+            <Nuxt />
+          </client-only>
+        </v-container>
+      </v-main>
+    </v-app>
+    <Nuxt />
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
